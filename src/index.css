@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: monospace;
+    overflow-x: hidden;
+}
+.nav_bar {
+    background-color: #1b53bbd8;
+    width: 100vw;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.bar_logo{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 5rem;
+    padding: 0 7rem;
+    color: #fff;
+}
+.nav_bar ul{
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: -0.2rem;
+}
+.nav_bar ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 5rem; 
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: #1b9bff;
+   
+}
+.checkbtn{
+    font-size: 2.5rem;
+    color: #fff;
+    float: right;
+    line-height: 5rem;
+    margin-right: 2.5rem;
+    display: none;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+@media (max-width:868px){
+    html{
+        font-size: 56%;
+    }
+    .bar_logo{
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+    .nav_bar ul li a{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}
+@media (max-width:676px){
+    html{
+        font-size: 52%;
+    }
+    .bar_logo{
+        padding: 0;
+        padding-left: 3rem;
+        
+    }
+    .checkbtn{
+        display: block;
+    }
+     .nav_bar ul {
+        position: fixed;
+        background-color: #2c3e50;
+        width: 100%;
+        height: 100vh;
+        top: 5rem;
+        left: -100%;
+        text-align: center;
+    }
+    .nav_bar ul li{
+        display: block;
+        margin: 1.7rem 0;
+    }
+    .nav_bar ul li a{
+        font-size: 2.5rem;
+    }
+    .nav_bar ul li a:hover,
+    .nav_bar ul li a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        z-index: 100;
+    } 
+}
+
+@media(max-width:768px) {
+    .container h1 {
+        font-size: 3rem !important;
+        
+    }
+   
+} 
+
+
+
+
+
+
+
+
+
+.css-noxkvv-MuiPaper-root-MuiCard-root{
+    position: relative;
+}
+.css-1t6e9jv-MuiCardActions-root{
+    position: absolute;
+    left: .5rem;
+    bottom: .5rem;
+}
+.css-1t6e9jv-MuiCardActions-root .btn-sm{
+    font-size: 1.4rem;
+}
+
+.css-46bh2p-MuiCardContent-root{
+    word-break: break-all;
+    letter-spacing: .2rem;
+}
+.css-1vw6mcs-MuiTypography-root {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+ 
+.carousel_css {
+    z-index: -1;
+    height: 80vh;
+    width: 100vw;
+
+}
+.carousel_css img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+ }
+ .carousel_css h2{
+    font-size: 2rem;
+ }
+ .carousel_css p{
+     font-size: 1.5rem;
+ }
+ .rounded,
+ .position-relative {
+     min-height: 50vh;
+ }
+
+ .rounded .py-3:hover{
+     transform: scale(.9);
+ }
+
+
+.container h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #29b0ee;
+    text-shadow: 0 10px 17px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.container h1 i {
+    color: #0ef8e5;
+    font-size: 3.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+} 
+.container h1::after {
+    content: "";
+    width: 100%;
+    height: 25px;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 6px solid #5e50dd88;
+}
+
+
+
+.navigationWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 4px  rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    overflow: hidden;
+    width: auto;
+}
+.navigation {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+    .parent {
+      padding: 0 10px;
+      cursor: pointer;
+      opacity: 1;
+      list-style-type: none;
+      color: #010111;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+      .link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        color: #010111;
+        font-size: 1.2rem;
+      }
+      .link:hover,
+      a.active, a:hover {
+          background: none;
+          color: #ea4f4c;
+        }
+
+    
