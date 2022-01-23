@@ -75,6 +75,13 @@ a.active,a:hover{
         font-size: 1.4rem;
         font-weight: 400;
     }
+    .setstyle1 h1{
+        font-size: 5rem !important;
+        font-weight: bold !important;
+      }
+      .setstyle1 b{
+        font-size: 1.2rem !important;
+      }
 }
 @media (max-width:676px){
     html{
@@ -118,14 +125,55 @@ a.active,a:hover{
 @media(max-width:768px) {
     .container h1 {
         font-size: 3rem !important;
-        
     }
-   
+    .setstyle1 h1{
+        font-size: 2.8rem !important;
+      }
+      .setstyle1 b{
+        font-size: 1rem !important;
+      }
 } 
 
+.setstyle1 {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .setstyle1 h1 {
+    font-size: 8rem;
+    font-weight: bolder;
+    color: transparent;
+    background-image: url(./img/clip.jpg);
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 2rem 0;
+  }
+  .setstyle1 b {
+    font-size: 2rem;
+    color: #3394ee;
+  }
 
-
-
+  .setstyle1 .btn-get-started {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    transition: 0.5s;
+    color: #57aada;
+    border: .2rem solid #3394ee;
+    text-decoration: none;
+  }
+ 
+  .setstyle1 .btn-get-started:hover {
+    background-color: #3394ee;
+    color: white;
+  }
 
 
 
