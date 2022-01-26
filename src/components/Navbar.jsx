@@ -12,7 +12,7 @@ export class Navbar extends Component {
           <label className="bar_logo">PAK-News</label>
           <ul>
             <li>
-              <a className="active" href="/pak-news">
+              <a className="active" href="/">
                 Home
               </a>
             </li>

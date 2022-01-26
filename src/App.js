@@ -19,7 +19,7 @@ export class App extends Component {
         <SlideCarousel />
         <Routes>
 
-          <Route path='pak-news'>          </Route>
+          {/* <Route path='pak-news'>          </Route> */}
 
           
           <Route path="" element={ <News setProgress={this.setProgress} key='business' pageSize={9} countryName="us" newsCategory="business" /> } />
