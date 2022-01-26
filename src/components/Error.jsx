@@ -9,7 +9,7 @@ const Error = () => {
       <b>Sorry! This page doesn't exist</b>
         <h1>404 Error Page!</h1>
        
-        <NavLink to="/" className="btn-get-started" >Go Back </NavLink>
+        <NavLink to="/pak-news" className="btn-get-started" >Go Back </NavLink>
       </div>
 
     </>

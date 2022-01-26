@@ -22,7 +22,7 @@ export class App extends Component {
           {/* <Route path='pak-news'>          </Route> */}
 
           
-          <Route path="" element={ <News setProgress={this.setProgress} key='business' pageSize={9} countryName="us" newsCategory="business" /> } />
+          <Route path="pak-news" element={ <News setProgress={this.setProgress} key='business' pageSize={9} countryName="us" newsCategory="business" /> } />
           <Route path="entertainment" element={ <News setProgress={this.setProgress} key='entertainment' pageSize={9} countryName="us" newsCategory="entertainment" /> } />
           <Route path="general" element={ <News setProgress={this.setProgress} key='general' pageSize={9} countryName="us" newsCategory="general" /> } />
           <Route path="science" element={ <News setProgress={this.setProgress} key='science' pageSize={9} countryName="us" newsCategory="science" /> } />
