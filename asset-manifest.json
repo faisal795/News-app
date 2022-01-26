@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pak-news/static/css/main.355246a3.css",
-    "main.js": "/pak-news/static/js/main.ec885744.js",
+    "main.js": "/pak-news/static/js/main.c2c46fdf.js",
     "static/js/787.bb621d7c.chunk.js": "/pak-news/static/js/787.bb621d7c.chunk.js",
     "static/media/studio.png": "/pak-news/static/media/studio.50b93b21299dcf12e595.png",
     "static/media/news.png": "/pak-news/static/media/news.5467d445d70cf794acbf.png",
@@ -12,11 +12,11 @@
     "static/media/Dual Ring-0.6s-71px.gif": "/pak-news/static/media/Dual Ring-0.6s-71px.13b4888d73cee3d479e5.gif",
     "index.html": "/pak-news/index.html",
     "main.355246a3.css.map": "/pak-news/static/css/main.355246a3.css.map",
-    "main.ec885744.js.map": "/pak-news/static/js/main.ec885744.js.map",
+    "main.c2c46fdf.js.map": "/pak-news/static/js/main.c2c46fdf.js.map",
     "787.bb621d7c.chunk.js.map": "/pak-news/static/js/787.bb621d7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.355246a3.css",
-    "static/js/main.ec885744.js"
+    "static/js/main.c2c46fdf.js"
   ]
 }
