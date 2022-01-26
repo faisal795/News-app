@@ -19,7 +19,8 @@ export class App extends Component {
         <SlideCarousel />
         <Routes>
 
-          <Route path='pak-news'>
+          <Route path='pak-news'>          </Route>
+
           
           <Route path="" element={ <News setProgress={this.setProgress} key='business' pageSize={9} countryName="us" newsCategory="business" /> } />
           <Route path="entertainment" element={ <News setProgress={this.setProgress} key='entertainment' pageSize={9} countryName="us" newsCategory="entertainment" /> } />
@@ -28,7 +29,6 @@ export class App extends Component {
           <Route path="sports" element={ <News setProgress={this.setProgress} key='sports' pageSize={9} countryName="us" newsCategory="sports" /> } />
           <Route path="technology" element={ <News setProgress={this.setProgress} key='technology' pageSize={9} countryName="us" newsCategory="technology" /> } />
          
-          </Route>
 
           <Route path='*' element={<Error />} />
 

@@ -71,27 +71,27 @@ export class News extends Component {
               <nav className="navigationWrapper">
                 <ul className="navigation">
                   <li className="parent">
-                    <NavLink className="link" to="/pak-news/entertainment">
+                    <NavLink className="link" to="/entertainment">
                     Entertainment
                     </NavLink>
                   </li>
                   <li className="parent">
-                    <NavLink className="link" to="/pak-news/General">
+                    <NavLink className="link" to="/General">
                     General
                     </NavLink>
                   </li>
                   <li className="parent">
-                    <NavLink className="link" to="/pak-news/science">
+                    <NavLink className="link" to="/science">
                     Science
                     </NavLink>
                   </li>
                   <li className="parent">
-                    <NavLink className="link" to="/pak-news/sports">
+                    <NavLink className="link" to="/sports">
                     Sports
                     </NavLink>
                   </li>
                   <li className="parent">
-                    <NavLink className="link" to="/pak-news/technology">
+                    <NavLink className="link" to="/technology">
                     Technology
                     </NavLink>
                   </li>
